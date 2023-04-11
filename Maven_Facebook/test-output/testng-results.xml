@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="18" failed="9" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-31T12:56:03 IST" name="Facebook_Suite" finished-at="2023-03-31T12:57:22 IST" duration-ms="78665">
+    <groups>
+    </groups>
+    <test started-at="2023-03-31T12:56:03 IST" name="ChromeTest" finished-at="2023-03-31T12:57:07 IST" duration-ms="64062">
+      <class name="TestNGPack.VerifyForgotPasswordPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:03 IST" name="openBrowser" finished-at="2023-03-31T12:56:06 IST" duration-ms="2783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:08 IST" name="beforeClass" finished-at="2023-03-31T12:56:08 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:08 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:15 IST" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifyMessageOnForgotPasswordPage()[pri:1, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:15 IST" name="verifyMessageOnForgotPasswordPage" finished-at="2023-03-31T12:56:16 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:16 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMessageOnForgotPasswordPage status=SUCCESS method=VerifyForgotPasswordPage.verifyMessageOnForgotPasswordPage()[pri:1, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:16 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:22 IST" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifyCancelButtonOnForgotPasswordPage()[pri:2, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:22 IST" name="verifyCancelButtonOnForgotPasswordPage" finished-at="2023-03-31T12:56:26 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:26 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelButtonOnForgotPasswordPage status=SUCCESS method=VerifyForgotPasswordPage.verifyCancelButtonOnForgotPasswordPage()[pri:2, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:26 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:34 IST" duration-ms="7209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifySearchButtonOnForgotPasswordPage()[pri:3, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:34 IST" name="verifySearchButtonOnForgotPasswordPage" finished-at="2023-03-31T12:56:52 IST" duration-ms="18118" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_9o4h']"}
+  (Session info: chrome=111.0.5563.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FTIU28S', ip: '192.168.184.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Akash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f927d5e382ae96e42aa0b8bc13b9e074
+*** Element info: {Using=xpath, value=//div[@class='_9o4h']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_9o4h']"}
+  (Session info: chrome=111.0.5563.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FTIU28S', ip: '192.168.184.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Akash\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f927d5e382ae96e42aa0b8bc13b9e074
+*** Element info: {Using=xpath, value=//div[@class='_9o4h']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at page.ForgotPasswordPage.getErrorMessage(ForgotPasswordPage.java:55)
+at TestNGPack.VerifyForgotPasswordPage.verifySearchButtonOnForgotPasswordPage(VerifyForgotPasswordPage.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:52 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:54 IST" duration-ms="2114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchButtonOnForgotPasswordPage status=FAILURE method=VerifyForgotPasswordPage.verifySearchButtonOnForgotPasswordPage()[pri:3, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:54 IST" name="closeTheBrowser" finished-at="2023-03-31T12:56:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@25084a1e]" started-at="2023-03-31T12:56:54 IST" name="afterTest" finished-at="2023-03-31T12:57:06 IST" duration-ms="12062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifyForgotPasswordPage -->
+      <class name="TestNGPack.VerifySignupPopUp">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:07 IST" name="openBrowser" finished-at="2023-03-31T12:56:08 IST" duration-ms="1215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:08 IST" name="beforeClass" finished-at="2023-03-31T12:56:08 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToSignUpPop()[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:08 IST" name="goToSignUpPop" finished-at="2023-03-31T12:56:12 IST" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPop -->
+        <test-method signature="verifyDayDropDown()[pri:1, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:12 IST" name="verifyDayDropDown" finished-at="2023-03-31T12:56:15 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDayDropDown -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:15 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDayDropDown status=SUCCESS method=VerifySignupPopUp.verifyDayDropDown()[pri:1, instance:TestNGPack.VerifySignupPopUp@7133da86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToSignUpPop()[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:15 IST" name="goToSignUpPop" finished-at="2023-03-31T12:56:16 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPop -->
+        <test-method signature="verifyMonthDropDown()[pri:2, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:16 IST" name="verifyMonthDropDown" finished-at="2023-03-31T12:56:19 IST" duration-ms="2394" status="FAIL">
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[You may only deselect options of a multi-select]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: You may only deselect options of a multi-select
+at org.openqa.selenium.support.ui.Select.deselectByValue(Select.java:224)
+at page.SingupPopUp.selectMonth(SingupPopUp.java:78)
+at TestNGPack.VerifySignupPopUp.verifyMonthDropDown(VerifySignupPopUp.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMonthDropDown -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:19 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:21 IST" duration-ms="2623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMonthDropDown status=FAILURE method=VerifySignupPopUp.verifyMonthDropDown()[pri:2, instance:TestNGPack.VerifySignupPopUp@7133da86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:21 IST" name="verifyYearDropDown" finished-at="2023-03-31T12:56:21 IST" depends-on-methods="TestNGPack.VerifySignupPopUp.verifyMonthDropDown" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifySignupPopUp.verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@7133da86] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifySignupPopUp.verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@7133da86] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYearDropDown -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:56:21 IST" name="closedTheBrowser" finished-at="2023-03-31T12:56:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifySignupPopUp@7133da86]" started-at="2023-03-31T12:57:06 IST" name="afterTest" finished-at="2023-03-31T12:57:07 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifySignupPopUp -->
+      <class name="TestNGPack.VerifyLoginPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:06 IST" name="openBrowser" finished-at="2023-03-31T12:56:07 IST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:08 IST" name="beforeClass" finished-at="2023-03-31T12:56:08 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:08 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:11 IST" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyTextPresentOnUserName()[pri:1, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:11 IST" name="verifyTextPresentOnUserName" finished-at="2023-03-31T12:56:12 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextPresentOnUserName -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:12 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:12 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextPresentOnUserName status=SUCCESS method=VerifyLoginPage.verifyTextPresentOnUserName()[pri:1, instance:TestNGPack.VerifyLoginPage@47faa49c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:12 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:13 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyErrorMessageOfIncorrectPassword()[pri:2, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:13 IST" name="verifyErrorMessageOfIncorrectPassword" finished-at="2023-03-31T12:56:26 IST" duration-ms="13670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOfIncorrectPassword -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:26 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageOfIncorrectPassword status=SUCCESS method=VerifyLoginPage.verifyErrorMessageOfIncorrectPassword()[pri:2, instance:TestNGPack.VerifyLoginPage@47faa49c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:26 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:29 IST" duration-ms="2906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyErrorMessageOfIncorrectUserName()[pri:3, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:29 IST" name="verifyErrorMessageOfIncorrectUserName" finished-at="2023-03-31T12:56:34 IST" duration-ms="4482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOfIncorrectUserName -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:34 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageOfIncorrectUserName status=SUCCESS method=VerifyLoginPage.verifyErrorMessageOfIncorrectUserName()[pri:3, instance:TestNGPack.VerifyLoginPage@47faa49c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:34 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:37 IST" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyForgotPasswordLinkOnLoginPage()[pri:4, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:37 IST" name="verifyForgotPasswordLinkOnLoginPage" finished-at="2023-03-31T12:56:44 IST" duration-ms="6242" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.facebook.com/] but found [https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMjQ3NTk1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.facebook.com/] but found [https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMjQ3NTk1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestNGPack.VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage(VerifyLoginPage.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkOnLoginPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:44 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:46 IST" duration-ms="2103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordLinkOnLoginPage status=FAILURE method=VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage()[pri:4, instance:TestNGPack.VerifyLoginPage@47faa49c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:46 IST" name="verifyCreateNewAccountButtonOnLoginPage" finished-at="2023-03-31T12:56:46 IST" depends-on-methods="TestNGPack.VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyLoginPage.verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@47faa49c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyLoginPage.verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@47faa49c] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccountButtonOnLoginPage -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:56:46 IST" name="closedTheBrowser" finished-at="2023-03-31T12:56:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifyLoginPage@47faa49c]" started-at="2023-03-31T12:57:06 IST" name="afterTest" finished-at="2023-03-31T12:57:06 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifyLoginPage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-31T12:56:03 IST" name="EdgeTest" finished-at="2023-03-31T12:57:12 IST" duration-ms="68835">
+      <class name="TestNGPack.VerifyForgotPasswordPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:03 IST" name="openBrowser" finished-at="2023-03-31T12:56:06 IST" duration-ms="2783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:17 IST" name="beforeClass" finished-at="2023-03-31T12:56:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:17 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:28 IST" duration-ms="11236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifyMessageOnForgotPasswordPage()[pri:1, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:28 IST" name="verifyMessageOnForgotPasswordPage" finished-at="2023-03-31T12:56:29 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:29 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMessageOnForgotPasswordPage status=SUCCESS method=VerifyForgotPasswordPage.verifyMessageOnForgotPasswordPage()[pri:1, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:29 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:35 IST" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifyCancelButtonOnForgotPasswordPage()[pri:2, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:35 IST" name="verifyCancelButtonOnForgotPasswordPage" finished-at="2023-03-31T12:56:43 IST" duration-ms="7367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:43 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelButtonOnForgotPasswordPage status=SUCCESS method=VerifyForgotPasswordPage.verifyCancelButtonOnForgotPasswordPage()[pri:2, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:43 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:54 IST" duration-ms="11472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifySearchButtonOnForgotPasswordPage()[pri:3, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:56:54 IST" name="verifySearchButtonOnForgotPasswordPage" finished-at="2023-03-31T12:57:10 IST" duration-ms="15653" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_9o4h']"}
+  (Session info: MicrosoftEdge=111.0.1661.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FTIU28S', ip: '192.168.184.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49331}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\Akash\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a42addfe4a459e2a4f6d7821232a5eb
+*** Element info: {Using=xpath, value=//div[@class='_9o4h']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_9o4h']"}
+  (Session info: MicrosoftEdge=111.0.1661.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FTIU28S', ip: '192.168.184.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49331}, msedge: {msedgedriverVersion: 111.0.1661.51 (5b30e0e79e57..., userDataDir: C:\Users\Akash\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a42addfe4a459e2a4f6d7821232a5eb
+*** Element info: {Using=xpath, value=//div[@class='_9o4h']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at page.ForgotPasswordPage.getErrorMessage(ForgotPasswordPage.java:55)
+at TestNGPack.VerifyForgotPasswordPage.verifySearchButtonOnForgotPasswordPage(VerifyForgotPasswordPage.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:57:10 IST" name="logOutFromApplication" finished-at="2023-03-31T12:57:11 IST" duration-ms="1165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchButtonOnForgotPasswordPage status=FAILURE method=VerifyForgotPasswordPage.verifySearchButtonOnForgotPasswordPage()[pri:3, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:57:11 IST" name="closeTheBrowser" finished-at="2023-03-31T12:57:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@21282ed8]" started-at="2023-03-31T12:57:11 IST" name="afterTest" finished-at="2023-03-31T12:57:11 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifyForgotPasswordPage -->
+      <class name="TestNGPack.VerifyLoginPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:06 IST" name="openBrowser" finished-at="2023-03-31T12:56:10 IST" duration-ms="3884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:17 IST" name="beforeClass" finished-at="2023-03-31T12:56:17 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:17 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:22 IST" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyTextPresentOnUserName()[pri:1, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:22 IST" name="verifyTextPresentOnUserName" finished-at="2023-03-31T12:56:23 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextPresentOnUserName -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:23 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextPresentOnUserName status=SUCCESS method=VerifyLoginPage.verifyTextPresentOnUserName()[pri:1, instance:TestNGPack.VerifyLoginPage@7bab3f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:23 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:27 IST" duration-ms="3585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyErrorMessageOfIncorrectPassword()[pri:2, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:27 IST" name="verifyErrorMessageOfIncorrectPassword" finished-at="2023-03-31T12:56:36 IST" duration-ms="9115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOfIncorrectPassword -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:36 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageOfIncorrectPassword status=SUCCESS method=VerifyLoginPage.verifyErrorMessageOfIncorrectPassword()[pri:2, instance:TestNGPack.VerifyLoginPage@7bab3f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:36 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:42 IST" duration-ms="5768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyErrorMessageOfIncorrectUserName()[pri:3, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:42 IST" name="verifyErrorMessageOfIncorrectUserName" finished-at="2023-03-31T12:56:54 IST" duration-ms="11649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOfIncorrectUserName -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:54 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageOfIncorrectUserName status=SUCCESS method=VerifyLoginPage.verifyErrorMessageOfIncorrectUserName()[pri:3, instance:TestNGPack.VerifyLoginPage@7bab3f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:54 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:58 IST" duration-ms="4840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyForgotPasswordLinkOnLoginPage()[pri:4, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:56:58 IST" name="verifyForgotPasswordLinkOnLoginPage" finished-at="2023-03-31T12:57:03 IST" duration-ms="4506" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.facebook.com/] but found [https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMjQ3NjE0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.facebook.com/] but found [https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMjQ3NjE0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestNGPack.VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage(VerifyLoginPage.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkOnLoginPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:57:03 IST" name="logOutFromApplication" finished-at="2023-03-31T12:57:04 IST" duration-ms="1325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordLinkOnLoginPage status=FAILURE method=VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage()[pri:4, instance:TestNGPack.VerifyLoginPage@7bab3f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:57:04 IST" name="verifyCreateNewAccountButtonOnLoginPage" finished-at="2023-03-31T12:57:04 IST" depends-on-methods="TestNGPack.VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyLoginPage.verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@7bab3f1a] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyLoginPage.verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@7bab3f1a] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccountButtonOnLoginPage -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:57:04 IST" name="closedTheBrowser" finished-at="2023-03-31T12:57:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifyLoginPage@7bab3f1a]" started-at="2023-03-31T12:57:11 IST" name="afterTest" finished-at="2023-03-31T12:57:12 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifyLoginPage -->
+      <class name="TestNGPack.VerifySignupPopUp">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:10 IST" name="openBrowser" finished-at="2023-03-31T12:56:17 IST" duration-ms="6863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:17 IST" name="beforeClass" finished-at="2023-03-31T12:56:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToSignUpPop()[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:17 IST" name="goToSignUpPop" finished-at="2023-03-31T12:56:22 IST" duration-ms="5762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPop -->
+        <test-method signature="verifyDayDropDown()[pri:1, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:22 IST" name="verifyDayDropDown" finished-at="2023-03-31T12:56:30 IST" duration-ms="7835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDayDropDown -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:30 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDayDropDown status=SUCCESS method=VerifySignupPopUp.verifyDayDropDown()[pri:1, instance:TestNGPack.VerifySignupPopUp@36916eb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToSignUpPop()[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:30 IST" name="goToSignUpPop" finished-at="2023-03-31T12:56:33 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPop -->
+        <test-method signature="verifyMonthDropDown()[pri:2, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:33 IST" name="verifyMonthDropDown" finished-at="2023-03-31T12:56:53 IST" duration-ms="19864" status="FAIL">
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[You may only deselect options of a multi-select]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: You may only deselect options of a multi-select
+at org.openqa.selenium.support.ui.Select.deselectByValue(Select.java:224)
+at page.SingupPopUp.selectMonth(SingupPopUp.java:78)
+at TestNGPack.VerifySignupPopUp.verifyMonthDropDown(VerifySignupPopUp.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMonthDropDown -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:53 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:56 IST" duration-ms="3342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMonthDropDown status=FAILURE method=VerifySignupPopUp.verifyMonthDropDown()[pri:2, instance:TestNGPack.VerifySignupPopUp@36916eb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:56 IST" name="verifyYearDropDown" finished-at="2023-03-31T12:56:56 IST" depends-on-methods="TestNGPack.VerifySignupPopUp.verifyMonthDropDown" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifySignupPopUp.verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@36916eb0] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifySignupPopUp.verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@36916eb0] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYearDropDown -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:56:56 IST" name="closedTheBrowser" finished-at="2023-03-31T12:56:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifySignupPopUp@36916eb0]" started-at="2023-03-31T12:57:12 IST" name="afterTest" finished-at="2023-03-31T12:57:12 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifySignupPopUp -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-03-31T12:56:03 IST" name="FirefoxTest" finished-at="2023-03-31T12:57:22 IST" duration-ms="78664">
+      <class name="TestNGPack.VerifyForgotPasswordPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:03 IST" name="openBrowser" finished-at="2023-03-31T12:56:14 IST" duration-ms="10524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:38 IST" name="beforeClass" finished-at="2023-03-31T12:56:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:38 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:53 IST" duration-ms="15052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifyMessageOnForgotPasswordPage()[pri:1, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:53 IST" name="verifyMessageOnForgotPasswordPage" finished-at="2023-03-31T12:56:53 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:53 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMessageOnForgotPasswordPage status=SUCCESS method=VerifyForgotPasswordPage.verifyMessageOnForgotPasswordPage()[pri:1, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:53 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:56:59 IST" duration-ms="5175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifyCancelButtonOnForgotPasswordPage()[pri:2, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:56:59 IST" name="verifyCancelButtonOnForgotPasswordPage" finished-at="2023-03-31T12:57:01 IST" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:57:01 IST" name="logOutFromApplication" finished-at="2023-03-31T12:57:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCancelButtonOnForgotPasswordPage status=SUCCESS method=VerifyForgotPasswordPage.verifyCancelButtonOnForgotPasswordPage()[pri:2, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToForgotPasswordPage()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:57:01 IST" name="goToForgotPasswordPage" finished-at="2023-03-31T12:57:05 IST" duration-ms="3939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToForgotPasswordPage -->
+        <test-method signature="verifySearchButtonOnForgotPasswordPage()[pri:3, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:57:05 IST" name="verifySearchButtonOnForgotPasswordPage" finished-at="2023-03-31T12:57:17 IST" duration-ms="12534" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@class='_9o4h']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FTIU28S', ip: '192.168.184.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 44112, moz:profile: C:\Users\Akash\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 541552a0-9dea-4118-970c-003ac69f6ba2
+*** Element info: {Using=xpath, value=//div[@class='_9o4h']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='_9o4h']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FTIU28S', ip: '192.168.184.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 44112, moz:profile: C:\Users\Akash\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 541552a0-9dea-4118-970c-003ac69f6ba2
+*** Element info: {Using=xpath, value=//div[@class='_9o4h']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at page.ForgotPasswordPage.getErrorMessage(ForgotPasswordPage.java:55)
+at TestNGPack.VerifyForgotPasswordPage.verifySearchButtonOnForgotPasswordPage(VerifyForgotPasswordPage.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButtonOnForgotPasswordPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:57:17 IST" name="logOutFromApplication" finished-at="2023-03-31T12:57:18 IST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchButtonOnForgotPasswordPage status=FAILURE method=VerifyForgotPasswordPage.verifySearchButtonOnForgotPasswordPage()[pri:3, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:57:18 IST" name="closeTheBrowser" finished-at="2023-03-31T12:57:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifyForgotPasswordPage@1de5f259]" started-at="2023-03-31T12:57:18 IST" name="afterTest" finished-at="2023-03-31T12:57:20 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifyForgotPasswordPage -->
+      <class name="TestNGPack.VerifySignupPopUp">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:26 IST" name="openBrowser" finished-at="2023-03-31T12:56:38 IST" duration-ms="11750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:38 IST" name="beforeClass" finished-at="2023-03-31T12:56:38 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToSignUpPop()[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:38 IST" name="goToSignUpPop" finished-at="2023-03-31T12:56:44 IST" duration-ms="5736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPop -->
+        <test-method signature="verifyDayDropDown()[pri:1, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:44 IST" name="verifyDayDropDown" finished-at="2023-03-31T12:56:48 IST" duration-ms="4146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDayDropDown -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:48 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDayDropDown status=SUCCESS method=VerifySignupPopUp.verifyDayDropDown()[pri:1, instance:TestNGPack.VerifySignupPopUp@729d991e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToSignUpPop()[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:48 IST" name="goToSignUpPop" finished-at="2023-03-31T12:56:50 IST" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPop -->
+        <test-method signature="verifyMonthDropDown()[pri:2, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:50 IST" name="verifyMonthDropDown" finished-at="2023-03-31T12:56:53 IST" duration-ms="3003" status="FAIL">
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[You may only deselect options of a multi-select]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: You may only deselect options of a multi-select
+at org.openqa.selenium.support.ui.Select.deselectByValue(Select.java:224)
+at page.SingupPopUp.selectMonth(SingupPopUp.java:78)
+at TestNGPack.VerifySignupPopUp.verifyMonthDropDown(VerifySignupPopUp.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMonthDropDown -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:53 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:54 IST" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMonthDropDown status=FAILURE method=VerifySignupPopUp.verifyMonthDropDown()[pri:2, instance:TestNGPack.VerifySignupPopUp@729d991e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:54 IST" name="verifyYearDropDown" finished-at="2023-03-31T12:56:54 IST" depends-on-methods="TestNGPack.VerifySignupPopUp.verifyMonthDropDown" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifySignupPopUp.verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@729d991e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifySignupPopUp.verifyYearDropDown()[pri:3, instance:TestNGPack.VerifySignupPopUp@729d991e] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYearDropDown -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:56:54 IST" name="closedTheBrowser" finished-at="2023-03-31T12:56:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifySignupPopUp@729d991e]" started-at="2023-03-31T12:57:20 IST" name="afterTest" finished-at="2023-03-31T12:57:22 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifySignupPopUp -->
+      <class name="TestNGPack.VerifyLoginPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:14 IST" name="openBrowser" finished-at="2023-03-31T12:56:26 IST" duration-ms="12555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:38 IST" name="beforeClass" finished-at="2023-03-31T12:56:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:38 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:45 IST" duration-ms="7404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyTextPresentOnUserName()[pri:1, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:45 IST" name="verifyTextPresentOnUserName" finished-at="2023-03-31T12:56:46 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextPresentOnUserName -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:46 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextPresentOnUserName status=SUCCESS method=VerifyLoginPage.verifyTextPresentOnUserName()[pri:1, instance:TestNGPack.VerifyLoginPage@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:46 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:48 IST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyErrorMessageOfIncorrectPassword()[pri:2, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:48 IST" name="verifyErrorMessageOfIncorrectPassword" finished-at="2023-03-31T12:56:53 IST" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOfIncorrectPassword -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:53 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageOfIncorrectPassword status=SUCCESS method=VerifyLoginPage.verifyErrorMessageOfIncorrectPassword()[pri:2, instance:TestNGPack.VerifyLoginPage@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:53 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:55 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyErrorMessageOfIncorrectUserName()[pri:3, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:55 IST" name="verifyErrorMessageOfIncorrectUserName" finished-at="2023-03-31T12:56:58 IST" duration-ms="2950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOfIncorrectUserName -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:58 IST" name="logOutFromApplication" finished-at="2023-03-31T12:56:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageOfIncorrectUserName status=SUCCESS method=VerifyLoginPage.verifyErrorMessageOfIncorrectUserName()[pri:3, instance:TestNGPack.VerifyLoginPage@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="goToLoginPage()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:58 IST" name="goToLoginPage" finished-at="2023-03-31T12:56:59 IST" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPage -->
+        <test-method signature="verifyForgotPasswordLinkOnLoginPage()[pri:4, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:56:59 IST" name="verifyForgotPasswordLinkOnLoginPage" finished-at="2023-03-31T12:57:02 IST" duration-ms="3019" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.facebook.com/] but found [https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMjQ3NjE5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.facebook.com/] but found [https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjgwMjQ3NjE5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestNGPack.VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage(VerifyLoginPage.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkOnLoginPage -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:57:02 IST" name="logOutFromApplication" finished-at="2023-03-31T12:57:04 IST" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordLinkOnLoginPage status=FAILURE method=VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage()[pri:4, instance:TestNGPack.VerifyLoginPage@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:57:04 IST" name="verifyCreateNewAccountButtonOnLoginPage" finished-at="2023-03-31T12:57:04 IST" depends-on-methods="TestNGPack.VerifyLoginPage.verifyForgotPasswordLinkOnLoginPage" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyLoginPage.verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@31fa1761] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyLoginPage.verifyCreateNewAccountButtonOnLoginPage()[pri:5, instance:TestNGPack.VerifyLoginPage@31fa1761] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccountButtonOnLoginPage -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:57:04 IST" name="closedTheBrowser" finished-at="2023-03-31T12:57:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack.VerifyLoginPage@31fa1761]" started-at="2023-03-31T12:57:20 IST" name="afterTest" finished-at="2023-03-31T12:57:20 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack.VerifyLoginPage -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Facebook_Suite -->
+</testng-results>

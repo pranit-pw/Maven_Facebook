@@ -16,6 +16,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import Browser_Setup.Base;
 import Utils.Utility;
 import page.ForgotPasswordPage;
@@ -29,12 +33,19 @@ public class VerifyForgotPasswordPage extends Base {
 	SoftAssert soft;
 	String testId;
 	 
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
 	
 	    
 	@Parameters ("browser")
 	@BeforeTest
 	public void openBrowser(String browserName ) {
     	System.out.println("VerifyForgotPasswordPage.Before Test");
+    	
+    	reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+    	ExtentReports extend = new ExtentReports();
+    	extend.attachReporter(reporter);
+    	
     	if(browserName.equals("Chrome"))
     	{
     	    driver = openChromeBrowser();
